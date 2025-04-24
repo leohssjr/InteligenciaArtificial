@@ -1,0 +1,50 @@
+site_name: Porfólio Inteligência Artificial
+
+repo_name: Inteligência Artificial
+repo_url: https://github.com/leohssjr/InteligenciaArtificial
+
+nav: 
+  - Início: index.md
+  - Unidade 1: 
+    - O que é a Inteligência Artificial?: sections/1-oqueEIA.md
+    - Fundamentos da Inteligência Artificial: sections/2-fundamentosDaIA.md
+    - Histórico da Inteligência Artificial: sections/3-historicoDaIA.md
+    - O Estado da Arte em IA: sections/4-estadoDaArte.md
+    - O que a IA pode fazer hoje?: sections/5-oqueaIAFazHoje.md
+    - Agente e Ambiente: sections/6-agenteEAmbiente.md
+    - Racionalidade: sections/7-racionalidade.md
+    - Especificando o Ambiente e Tarefas: sections/8-especificando.md
+
+
+
+
+theme: 
+  name: material
+  language: pt-BR
+  favicon: assets/favicon.png
+  logo: assets/logoIA.png
+
+  features:
+    - content.code.annotate
+      - content.tabs.link
+      - header.autohide
+      - navigation.instant
+      - navigation.top
+      - navigation.tracking
+  
+  palette:
+  - media: "(prefers-color-scheme: dark)"
+    scheme: slate
+    primary: '2c3094'
+    accent: '2c3094'
+    toggle:
+      icon: material/weather-night
+      name: Tema claro
+
+  - media: "(prefers-color-scheme: light)"
+    scheme: default
+    primary: '2c3094'
+    accent: '2c3094'
+    toggle:
+      icon: material/weather-sunny
+      name: Tema escuro

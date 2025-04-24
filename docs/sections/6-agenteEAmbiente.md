@@ -1,0 +1,8 @@
+## 6.1 Ação de um agente
+Um agente artificial toma decisões com base em sua programação interna e na sequência de percepções que recebeu do ambiente até o momento. Isso significa que suas ações são determinadas exclusivamente pelo que ele já observou, sem considerar informações não percebidas. Por exemplo, um robô aspirador decide se deve limpar um cômodo com base em sensores que detectam sujeira, mas ignora áreas fora de seu alcance de percepção. Essa limitação intencional garante que o agente opere dentro de parâmetros previsíveis e seguros.
+
+## 6.2 Função de um agente
+A função do agente é um mapeamento abstrato que transforma qualquer sequência histórica de percepções em uma ação específica. Essa função é teórica, definindo o que o agente deve fazer, mas não como implementar. Por exemplo, um agente que joga xadrez usa sua função para escolher movimentos baseados em jogadas anteriores, sem “pensar” em estratégias fora do escopo percebido.
+
+## 6.3 Programa agente
+O programa do agente é a implementação prática da função, traduzindo-a em código executável. Enquanto a função é uma descrição matemática ("se detectar obstáculo, desvie"), o programa define os passos técnicos para isso, como exemplo algoritmos de pathfinding como A*. Agentes podem ser simples, como termostatos que ligam o ar-condicionado ao detectar temperatura alta, ou complexos, como carros autônomos que integram visão computacional e aprendizado por reforço.
